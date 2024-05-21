@@ -1,0 +1,37 @@
+.container {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 70px;
+    /* 하단에 고정된 요소가 겹치지 않도록 여백 추가 */
+}
+
+#generate-btn,
+#reset-btn,
+#lotto-count {
+    position: fixed;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#generate-btn {
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+#reset-btn {
+    right: 140px;
+    background-color: #dc3545;
+    color: #fff;
+}
+
+#lotto-count {
+    right: 260px;
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
